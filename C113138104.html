@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>個人履歷表</title>
+  <style>
+    body {
+      font-family: Microsoft JhengHei;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+
+    .background-image {
+      background-image: url('3.jpg');
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 200px;
+    }
+
+    .info-section {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      background-color: #3d5065;
+      color: #ecf0f1;
+      width: 100%;
+      height: 40px;
+      justify-content: center;
+      gap: 4%;
+    }
+
+    .profile-picture {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid white;
+      margin-top: 65px;
+      margin-left: 5%;
+
+    }
+
+    .icon {
+      width:60px;
+      height: 60px;
+      border-radius: 60%;
+      border: 3px solid white;
+      transform: translateY(10px); 
+    }
+
+    .igicon{
+      width:43px;
+      height: 43px;
+      border-radius: 70%;
+    }
+
+    .text-section {
+      text-align: left;
+      margin-top: 50px;
+    }
+
+    .name {
+      font-size: 2em;
+      margin-top: 80px;
+      text-align: left;
+    }
+
+    .title {
+      font-size: 1.2em;
+      color: #000000;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #ecf0f1;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 60px;
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    .section-content {
+      padding: 10px 0;
+      line-height: 1.6;
+    }
+
+    .underline {
+      border-bottom: 3px solid #79cabd;
+    }
+
+    .hashtag {
+      color: #1c1c1c82;
+    }
+
+    .textalign {
+      text-align: right;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="background-image"></div>
+    <div class="info-section">
+      <img src="1.jpg" alt="個人照片" class="profile-picture">
+      <div>
+        <h1 class="name">洪詩茹</h1>
+        <p class="title">國立高雄科技大學 </p>
+      </div>
+      <nav>
+        <a href="#about">簡介</a>
+        <a href="#education">學歷</a>
+        <a href="#skills">技能</a>
+        <a href="#experience">活動經驗</a>
+        <a href="#contact">聯絡方式</a>
+      </nav>
+    </div>
+  </header>
+  <section id="about">
+    <h2>簡介</h2>
+    <div class="section-content">
+      <p>【勇於嘗試跨領域挑戰，享受新挑戰帶來的樂趣】<br>
+        跨領域積極主動，勇於踏出舒適圈，自我要求高。具會計、電腦應用相關經驗， 熟悉Word、PowerPoint及Excel等工具，擁有會計實務、跨領域溝通協作能力。具備基本程式語言及網頁設計的經驗。</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>學歷</h2>
+    <div class="section-content">
+      <ul>
+        <li>國立高雄科技大學 國際智慧金融技優專班 |在讀</li>
+        <li>新北市立新北高級工業職業學校 資料處理科 |畢業</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>技能</h2>
+    <div class="section-content" style="display: flex; gap: 25%">
+      <p><span class="underline"><strong>Microsoft Office</strong></span><br>Word、Excel、PowerPoint
+        <border class="hashtag"><br>#文書處理╱排版能力 #行政事務處理 <br>#文件檔案資料處理、轉換及整合工作 <br>#報表彙整與管理 #提案與簡報技巧</border>
+      </p>
+      <p><span class="underline"><strong>會計實務</strong></span><br>會計資訊系統、人工記帳
+        <border class="hashtag"><br>#實務記帳╱資訊能力 #會計事務處理 <br>#報表資料處理、轉換及整合工作 </border>
+      </p>
+    </div>
+    <div class="section-content" style="display: flex; gap: 25%">
+      <p><span class="underline"><strong>網頁設計</strong></span><br>Dreamweaver
+        <border class="hashtag"><br>#美編╱排版能力 #程式抓錯能力 </border>
+      </p>
+      <a href="4.pdf" style="align-self: flex-end; margin-left: auto; text-decoration: none; color: #0066ff; text-decoration: none; ">相關證照證明</a>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>活動經驗</h2>
+    <div class="section-content" style="display: flex; gap: 10% ">
+      <img src="5.jpg" height="400px" width="350px">
+      <p><span
+          class="underline"><strong>技職國際領袖人才計畫</strong></span><br>透過與課程講師的互動及線上國際學伴的對話，我培養了國際視野並提升了英文口語能力。這個計畫帶給我許多成長，不僅讓我提升了在團隊中的領導和溝通技巧，也鼓勵我走出舒適圈，嘗試新的挑戰和體驗。
+        <border class="hashtag"><br>#國際視野#英文口語提升#團隊領導#溝通技巧#跨出舒適圈#挑戰自我#語言交流#國際素養</border>
+      </p>
+      <a href="5.pdf" style="position: absolute;  top: 1820px;left: 70%; text-decoration: none; color: #0066ff;">活動照</a>
+    </div>
+    <div class="section-content" style="display: flex; gap: 4% ;">
+      <p><span
+          class="underline"><strong>德明財經科技大學現金流比賽</strong></span><br>透過財富自由的桌遊，我們能模擬房地產投資及貸款策略，了解不同情境下的最佳決策時機，並在遊戲中體驗資產增長的過程，培養財務管理的觀念。
+        <border class="hashtag"><br>#財富自由#房地產投資#貸款策略#資產增長#財務管理#決策時機</border>
+      </p>
+      <a href="8.pdf" style="position: absolute;  top: 2240px;left: 27%; text-decoration: none; color: #0066ff">活動照</a>
+      <img src="7.jpg" height="400px" width="350px">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>聯絡方式</h2>
+    <div class="section-content">
+      <p>電子郵件：tina33637@gmail.com</p>
+      <p>LineID：ruby20051002</p>
+      <a href="https://www.facebook.com/profile.php?id=100014993978244">
+        <img src="10.png"  class="icon">
+      </a>
+      <a href="https://www.instagram.com/ruby_10._.02/">
+        <img src="13.jpeg"  class="igicon">
+      </a>
+    </div>
+  </section>
+
+</body>
+
+</html>
